@@ -3,8 +3,8 @@
 #include <stdbool.h>
 #include <ctype.h>
 
-int main(){
- 
+int main()
+{
     int opciones, DNI;
     bool continuar = true;
     char nombre[30], apellido[30], nombreObjetivo[30], apellidoObjetivo[30];
