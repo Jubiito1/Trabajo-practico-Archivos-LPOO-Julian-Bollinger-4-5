@@ -3,7 +3,8 @@
 #include <stdbool.h>
 #include <ctype.h>
 
-int main(){
+int main()
+{
 
     int opciones, DNI, Objetivo;
     bool flag = true;
