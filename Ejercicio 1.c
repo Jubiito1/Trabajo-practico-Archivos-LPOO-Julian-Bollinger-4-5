@@ -6,7 +6,7 @@
 int main(){
 
     int opciones, DNI, Objetivo;
-    bool continuar = true;
+    bool flag = true;
     char nombre[30], apellido[30]; 
     FILE *usuarios;
 
@@ -65,11 +65,11 @@ int main(){
             break;
 
             case 3:
-                continuar = false;
+                flag = false;
             break;
 
         }
-    }while(continuar);
+    }while(flag);
 
     return 0;
 }
